@@ -1,0 +1,15 @@
+{
+    "name": "Tasks",
+    "manifest_version": 2,
+    "version": "1.0",
+    "author": "Andrey Litvinov",
+    "description": "Данное расширение позваляет распределять задачи на день!",
+
+    "icons": {
+        "256": "image/icon_256.png"
+    },
+
+    "browser_action": {
+        "default_popup": "main/index.html"
+    }
+}
