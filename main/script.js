@@ -85,7 +85,7 @@ async function AddTaskItems(taskText, timeTask, dateTask){
 // Get Date and Time
 var date = new Date();
 let FullTime = () => {return date.getHours() + ":" + date.getMinutes()}, // Time
-    FullDate = () => {return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate()}; // Date
+    FullDate = () => {return date.getFullYear() + "-" + (Number(date.getMonth()) + 2) + "-" + date.getDate()}; // Date
 
 // Load Data
 window.addEventListener('load', function(){ 
